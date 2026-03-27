@@ -1,3 +1,7 @@
+/* ==================== */
+/* == RESET AND ROOT == */
+/* ==================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +36,9 @@ main {
     justify-content: space-between;
 }
 
-/* HEADER */
+/* ============ */
+/* == HEADER == */
+/* ============ */
 
 header {
     display: flex;
@@ -94,7 +100,9 @@ header #icon:hover {
     cursor: pointer;
 }
 
-/* SIDEBAR NAVIGATION */
+/* ======================== */
+/* == SIDEBAR NAVIGATION == */
+/* ======================== */
 
 .sidebar {
     width: 15%;
@@ -160,7 +168,9 @@ a.link:active {
     color: #fff;
 }
 
-/* MAIN CONTENT */
+/* ================== */
+/* == MAIN CONTENT == */
+/* ================== */
 
 .main-content {
     width: 84%;
@@ -172,7 +182,7 @@ a.link:active {
     padding: 5px 10px;
 }
 
-    /* HEADER */
+/* == HEADER == */
 
 .main-content h1 {
     display: flex;
@@ -201,7 +211,7 @@ a.link:active {
     background-color: rgb(110, 110, 110);
 }
 
-    /* MAIN CONTENT BODY */
+/* == MAIN CONTENT BODY == */
 
 .center {
     text-align: center;
@@ -244,7 +254,9 @@ a.link:active {
     margin-bottom: 0.5rem;
 }
 
-/* FOOTER */
+/* ============ */
+/* == FOOTER == */
+/* ============ */
 
 .spacer {
     width: 100%;
@@ -278,7 +290,9 @@ footer p {
     font-size: 0.8rem;
 }
 
-/* ANIMATIONS */
+/* ================ */
+/* == ANIMATIONS == */
+/* ================ */
 
 @keyframes rotate {
     0% {
